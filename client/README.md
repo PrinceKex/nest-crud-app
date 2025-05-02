@@ -16,8 +16,14 @@ See [Vite Configuration Reference](https://vite.dev/config/).
 
 ## Project Setup
 
-```sh
-npm install
+## Clone the repository:
+
+```bash
+git clone <repository-url>
+cd <repository-directory>
+
+## Ensure you have docker desktop installed and running
+docker-compose up -d --build
 ```
 
 ### Compile and Hot-Reload for Development
@@ -26,14 +32,12 @@ npm install
 npm run dev
 ```
 
-### Type-Check, Compile and Minify for Production
+## website should be up and running
 
-```sh
-npm run build
-```
+## Frontend
 
-### Lint with [ESLint](https://eslint.org/)
+localhost:5173
 
-```sh
-npm run lint
-```
+## Backend
+
+localhost:3000
